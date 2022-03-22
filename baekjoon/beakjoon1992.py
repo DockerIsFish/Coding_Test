@@ -32,5 +32,6 @@ def decompose(n, y, x):
 
 N = int(sys.stdin.readline())
 image = [list(sys.stdin.readline().strip()) for _ in range(N)]
+
 decompose(N, 0, 0)
 
