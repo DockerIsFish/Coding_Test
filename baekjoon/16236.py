@@ -13,6 +13,7 @@ mv = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 bsize = 2
 bcnt = 0
 
+
 def bfs():
     visited = [[False] * N for _ in range(N)]
     q = deque([(0, baby[0], baby[1])])
